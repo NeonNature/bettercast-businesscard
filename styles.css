@@ -1,0 +1,32 @@
+.business-card {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf0f1;
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.business-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.business-info-name {
+    font-size: 24px;
+}
+
+.business-info-website a {
+    text-decoration: none;
+    color: #3498db;
+}
